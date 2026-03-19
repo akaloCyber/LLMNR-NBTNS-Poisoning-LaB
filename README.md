@@ -74,8 +74,15 @@ As shown in the lab, an attacker can impersonate a legitimate server and trick t
 - Multicast IP: 224.0.0.252
 - Attacker response seen from local IP
 - NTLM authentication exchange captured
+-  
 
-(📸 Add screenshots here)
+### Responder Attack
+![Responder](./responder.png)
+![Responder](./responder2.png)
+
+### Wireshark Analysis
+![Wireshark](./wireshark.png)
+![Wireshark](./wireshark2.png)
 
 ---
 
