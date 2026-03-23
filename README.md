@@ -80,6 +80,7 @@ As shown in the lab, an attacker can impersonate a legitimate server and trick t
 ![Responder](./screenshots/Responder.png)
 
 ### Wireshark Analysis
+![DNS](./screenshots/DNS_Resolution_Failure.png)
 ![DNS](./screenshots/DNS_Resolution_Failure2.png)
 ![Wireshark](./wireshark2.png)
 
