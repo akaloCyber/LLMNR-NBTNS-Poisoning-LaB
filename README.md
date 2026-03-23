@@ -77,7 +77,7 @@ As shown in the lab, an attacker can impersonate a legitimate server and trick t
 -  
 
 ### Responder Attack
-![Responder](./responder.png)
+![Responder](./screenshots/responder.png)
 
 
 ### Wireshark Analysis
