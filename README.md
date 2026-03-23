@@ -76,16 +76,32 @@ As shown in the lab, an attacker can impersonate a legitimate server and trick t
 - NTLM authentication exchange captured
   
 
-### Responder Attack
-![Responder](./screenshots/Responder.png)
+### 🔍 Wireshark Evidence – LLMNR Poisoning
 
-### Wireshark Analysis
+#### 1. DNS Failure
 ![DNS](./screenshots/DNS_Resolution_Failure.png)
-![DNS](./screenshots/DNS_Resolution_Failure2.png)
+
+*DNS request failed → system attempts fallback.*
+
+#### 2. LLMNR Multicast Request
 ![Wireshark](./screenshots/Wireshark.png)
+
+*LLMNR request sent to multicast address 224.0.0.252.*
+
+#### 3. Attacker Response (Spoofed)
 ![Wireshark](./screenshots/Wireshark2.png)
-![NTLM](./screenshots/NTLM_hash.png) 
+
+*Attacker responds pretending to be the requested host.*
+
+#### 4. NTLM Authentication Captured
+![NTLM](./screenshots/NTLM_hash.png)
+
+*NTLMv2 challenge-response observed.*
+
+#### 5. Mitigation (GPO)
 ![Mitigation](./screenshots/Mitigation.png)
+
+*Disabling LLMNR via Group Policy prevents the attack.*
 
 
 ---
