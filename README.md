@@ -82,7 +82,11 @@ As shown in the lab, an attacker can impersonate a legitimate server and trick t
 ### Wireshark Analysis
 ![DNS](./screenshots/DNS_Resolution_Failure.png)
 ![DNS](./screenshots/DNS_Resolution_Failure2.png)
-![Wireshark](./wireshark2.png)
+![Wireshark](./screenshots/Wireshark.png)
+![Wireshark](./screenshots/Wireshark2.png)
+![NTLM](./screenshots/NTLM_hash.png) 
+![Mitigation](./screenshots/Mitigation.png)
+
 
 ---
 
